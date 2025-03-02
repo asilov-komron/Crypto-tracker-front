@@ -10,7 +10,7 @@ const App = () => {
   const [currencyId, setCurrencyId] = useState(1)
   const [currencyData, setCurrencyData] = useState(null)
 
-  const base_url = 'https://crypto-tracker-backend-zx40.onrender.com/';
+  const base_url = 'https://crypto-tracker-backend-zx40.onrender.com';
 
 
 
