@@ -4,7 +4,7 @@ import { Card } from 'antd';
 
 function CryptoCard(props) {
 
-    const price = Math.round(props.currency.quote.USD.price)
+    const price = props.currency.quote.USD.price
     const change_24_h = Number(props.currency.quote.USD.percent_change_24h.toFixed(3));
     const color = change_24_h >= 0 ? "green" : "red"
     const market_cap = (Number(props.currency.quote.USD.market_cap) / 1e9).toFixed(0);
