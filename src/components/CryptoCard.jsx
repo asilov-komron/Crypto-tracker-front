@@ -24,7 +24,7 @@ function CryptoCard(props) {
                 }}
             >
                 {/* <b> */}
-                <p>Current price: <b>${price/1000}K</b></p>
+                <p>Current price: <b>${price}</b></p>
                 <p >price change in 24 hours: <b style={ {color: color}}>{change_24_h}%</b></p>
                 <p>Market Capitalization: <b>${market_cap}B</b></p>
                 {/* </b> */}
